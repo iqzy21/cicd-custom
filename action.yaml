@@ -1,0 +1,17 @@
+name: Custom Action
+
+description: Greet some one and record the time
+
+inputs:
+  who-to-greet:
+    description: who to Greet
+    required: true
+    default: Hello
+
+outputs:
+  time:
+    description: Time Greeting
+
+runs:
+  using: node20
+  main: dist/index.js
