@@ -11,5 +11,8 @@
   "description": "",
   "dependencies": {
     "@actions/core": "^2.0.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.4"
   }
 }
